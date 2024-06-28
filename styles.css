@@ -1,0 +1,77 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Inter, sans-serif;
+}
+
+body{
+    background-color: hsl(0, 0%, 8%);
+}
+
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.box{
+    background-color: hsl(0, 0%, 12%);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 15px;
+    align-items: center;
+    border-radius: 10px;
+    width: 300px;
+}
+
+img{
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+h1{
+    font-size:24px;
+}
+
+h2,p{
+    font-size: 14px;
+}
+
+h2{
+    color: hsl(75, 94%, 57%);
+    margin-bottom: 10px;
+}
+
+p{
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.btn{
+    font-size: 14px;
+    align-self: stretch;
+    padding: 13px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background-color:hsl(0, 0%, 20%);
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.btn:active{
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 8%) ;
+}
+
+
